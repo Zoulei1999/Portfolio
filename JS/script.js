@@ -59,7 +59,7 @@ window.onload = function() {
         // these IDs from the previous steps
         emailjs.sendForm('service_i1ttbi9', 'template_0hi2fwl', this)
             .then(function() {
-                console.log('SUCCESS!');
+                alert('Email Sent!');
             }, function(error) {
                 console.log('FAILED...', error);
             });
